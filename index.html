@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Osvaldo Salazar Oporta</title>
+  <style>
+    :root {
+      --primary-color: #37352f;
+      --accent-color: #005f73;
+      --bg-color: #ffffff;
+      --text-color: #333333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    aside {
+      background-color: #f4f4f4;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    aside img {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    h1, h2, h3 {
+      color: var(--primary-color);
+      margin-bottom: 0.5em;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      margin-bottom: 1em;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5em;
+      margin-bottom: 1.5em;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <img src="/img/logo.jpeg" width="40px" />
+    <h2>Hi! I'm Osvaldo.</h2>
+    <p>I'm a software development student with a year and a half of university training. I have intermediate experience in technologies such as PHP, CodeIgniter, JavaScript, MySQL, phpMyAdmin, HTML, Bootstrap, and Workbench.</p>
+    <p>Here you can see some of the projects I've developed to practice my skills and provide real-world solutions.</p>
+  </aside>
+
+  <section class="section">
+    <h2>📕 Projects</h2>
+    <hr>
+    <p><strong>🧩 Technologies:</strong> PHP, CodeIgniter, MySQL<br>
+    <strong>📝 Description:</strong> Web system for the human resources department. <em>Fully functional</em><br>
+    <strong>🔗 GitHub code:</strong> <a href="https://github.com/osvaldo-salazar/proyecto-recursos-humanos" target="_blank">https://github.com/osvaldo-salazar/proyecto-recursos-humanos</a></p>
+    <h3>📷 Screenshots:</h3>
+    <div class="gallery">
+      <div>
+        <p>Login.</p>
+        <img src="/img/login.png" alt="Gestión de categorías" />
+      </div>
+      <div>
+        <p>main view of the system.</p>
+        <img src="/img/main.png" alt="Crear empleados" />
+      </div>
+      <div>
+         <p>Categories section.</p>
+        <img src="/img/categorias.png" alt="Pantalla de login" />
+      </div>
+      <div>
+        <p>create employees section.</p>
+        <img src="/img/crear_empleados.png" alt="Vista principal" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Osvaldo Salazar Oporta</p>
+  </footer>
+</body>
+</html>
